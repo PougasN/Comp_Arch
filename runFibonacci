@@ -1,0 +1,35 @@
+#!/bin/bash 
+
+SCRIPT="configs/example/se.py"
+CMD="fibonacci/fibonacci_arm"
+CPUFREQ=1000000000000
+
+#Memory types:HBM_1000_4H_1x128
+#	DRAMCtrl
+#	DDR3_2133_8x8
+#	HBM_1000_4H_1x64
+#	GDDR5_4000_2x32
+#	HMC_2500_1x32
+#	LPDDR3_1600_1x32
+#	WideIO_200_1x128
+#	QoSMemSinkCtrl
+#	DDR4_2400_8x8
+#	DDR3_1600_8x8
+#	DDR4_2400_4x16
+#	DDR4_2400_16x4
+#	SimpleMemory
+#	LPDDR2_S4_1066_1x32
+
+MEMTYPE="DDR3_2133_8x8"
+
+echo "~~~~~~~~~~~~~~~~~~MinorCPU Test~~~~~~~~~~~~~~~~~~"
+read -p "Press enter to continue..."
+
+./build/ARM/gem5.opt -d fibonacci/Minortest $SCRIPT --cmd=$CMD --caches --cpu-type=MinorCPU --cpu-clock=$CPUFREQ  --mem-type=$MEMTYPE 
+
+echo "~~~~~~~~~~~~~~~~~~TimingSimpleCPU~~~~~~~~~~~~~~~~~~"
+read -p "Press enter to continue..."
+
+./build/ARM/gem5.opt -d fibonacci/TStest $SCRIPT --cmd=$CMD --caches --cpu-type=TimingSimpleCPU --cpu-clock=$CPUFREQ --mem-type=$MEMTYPE 
+
+

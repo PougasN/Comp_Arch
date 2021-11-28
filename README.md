@@ -1,8 +1,8 @@
 # Computer Architecture  
 ## Assignment 1: Introduction to Gem5.
 ### Lab B / Group 7
-#### Pougaridis Nikolaos
-#### Spaias Georgios 
+#### Pougaridis Nikolaos 8038
+#### Spaias Georgios 8910
 
 
 

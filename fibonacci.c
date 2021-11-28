@@ -1,6 +1,6 @@
 /*
  * Run with a single number argument. Example:
- *   Command: ./fastfibonacci 7
+ *   Command: ./fibonacci 7
  *   Output: "fibonacci(7) = 13"
  */
 

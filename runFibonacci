@@ -1,5 +1,6 @@
 #!/bin/bash 
 
+#Bash script to run fibonacci_arm ingem5 for different CPU-types with the same parameters
 SCRIPT="configs/example/se.py"
 CMD="fibonacci/fibonacci_arm"
 CPUFREQ=1000000000000

@@ -42,7 +42,7 @@ void fast_fibonacci(long long int n,long long int ans[])
 int main(int argc, char* argv []) {
         int n; /* nth value to be found */
 		if (argc != 2) {
-	    printf("USAGE: ./main  <n> \nWill use default max n=93 \n");
+	    printf("USAGE: ./main  <n> \nWill use default max n=93 due to unsigned long long MAX\n");
         n=93;
 		}else
         {
@@ -52,10 +52,14 @@ int main(int argc, char* argv []) {
 			return 1;
 		    }
         }
-               
-        unsigned long long int ans[2]={0};
-        fast_fibonacci(n,ans);
-        printf("\nfibonacci(%d) = %llu\n",n,ans[0]);
+	unsigned long long int ans[2]={0};
+        for(int i=0;i<n+1;i++){      
+        
+        fast_fibonacci(i,ans);
+        printf("\nfibonacci(%d) = %llu\n",i,ans[0]);
+	ans[0]=0;
+	ans[1]=0;
+	}
         return 0;
 	}
 	

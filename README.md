@@ -90,7 +90,7 @@ In-order CPUs:
 
 #### Ερωτημα 4a.
 
- Στην συνέχεια γράψαμε ενα πρόγραμμα σε C προκειμένου να το προσομοιώσουμε με το script se.py και τα cpu-types TimingSimpleCPU και MinorCPU.  
+ Στην συνέχεια γράψαμε ενα [πρόγραμμα σε C](https://github.com/PougasN/Comp_Arch/blob/main/fibonacci.c) προκειμένου να το προσομοιώσουμε με το script se.py και τα cpu-types TimingSimpleCPU και MinorCPU.  
  Επιλέξαμε να γράψουμε ένα πρόγραμμα υπολογισμού του n-οστού στοιχείου της σειράς fibonacci με την χρήση του Fast Doubling αλγορίθμου o οποίος βασίζεται στην ταυτότητα:  
 $$Given~ F(k)~ and~ F(k+1),~ we~ can~ calculate~ these: $$  
 $$F(2k)=F(k)[2F(k+1)−F(k)]$$  

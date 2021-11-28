@@ -55,9 +55,9 @@ Tα config.ini και config.json μας παρέχουν πληροφορίες
 
 **a.** Θεωρώντας πως το σύστημα έχει ποινή αστοχίας (miss penalty) _L1= 6 cycles_ και ποινή αστοχίας (miss penalty) _L2= 50 cycles_ και 1 cycle cache hit/instruction execution μπορούμε να υπολογίσουμε το **_CPI_** του συστήματος με την εξίσωση
 
-$$
-CPI=1+ \frac{(IL1.miss\_num+DL1.miss\_num)\times6 +L2.miss\_num\times50}{Total\_inst\_num}
-$$
+
+$ CPI=1+ \frac{(IL1.miss\_num+DL1.miss\_num)\times6 +L2.miss\_num\times50}{Total\_inst\_num} $
+
 
 και απο το stats.txt έχουμε:
 * ``l2.overall_misses::total``  = 474

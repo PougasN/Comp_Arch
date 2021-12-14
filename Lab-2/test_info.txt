@@ -1,0 +1,395 @@
+
+Specbzip~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.083982                       # Number of seconds simulated
+sim_insts                                   100000001                       # Number of instructions simulated
+system.cpu.cpi                               1.679650                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000001                       # Number of instructions committed
+system.cpu.committedOps                     100196363                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total        770644                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.014798                       # miss rate for overall accesses
+system.cpu.dcache.replacements                 710569                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total           747                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.000077                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total                200996                       # number of overall misses
+system.l2.overall_miss_rate::total           0.282163                       # miss rate for overall accesses
+system.l2.overall_accesses::total              712341                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152
+
+Specbmcf~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.064955                       # Number of seconds simulated
+sim_insts                                   100000001                       # Number of instructions simulated
+system.cpu.cpi                               1.299095                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000001                       # Number of instructions committed
+system.cpu.committedOps                     109431937                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total         75340                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.002108                       # miss rate for overall accesses
+system.cpu.dcache.replacements                  54452                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total        668914                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.023612                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total                 39875                       # number of overall misses
+system.l2.overall_miss_rate::total           0.055046                       # miss rate for overall accesses
+system.l2.overall_accesses::total              724390                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152
+
+Spechmmer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.059396                       # Number of seconds simulated
+sim_insts                                   100000000                       # Number of instructions simulated
+system.cpu.cpi                               1.187917                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000000                       # Number of instructions committed
+system.cpu.committedOps                     101102729                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total         71886                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.001637                       # miss rate for overall accesses
+system.cpu.dcache.replacements                  65718                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total          3821                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.000221                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total                  5487                       # number of overall misses
+system.l2.overall_miss_rate::total           0.077760                       # miss rate for overall accesses
+system.l2.overall_accesses::total               70563                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152
+
+Specsjeng~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.513528                       # Number of seconds simulated
+sim_insts                                   100000000                       # Number of instructions simulated
+system.cpu.cpi                              10.270554                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000000                       # Number of instructions committed
+system.cpu.committedOps                     184174857                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total      10523861                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.121831                       # miss rate for overall accesses
+system.cpu.dcache.replacements                5262377                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total           649                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.000020                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total               5263903                       # number of overall misses
+system.l2.overall_miss_rate::total           0.999972                       # miss rate for overall accesses
+system.l2.overall_accesses::total             5264051                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152
+
+Speclibm~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.174671                       # Number of seconds simulated
+sim_insts                                   100000000                       # Number of instructions simulated
+system.cpu.cpi                               3.493415                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000000                       # Number of instructions committed
+system.cpu.committedOps                     100003637                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total       2975818                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.060972                       # miss rate for overall accesses
+system.cpu.dcache.replacements                1486955                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total           558                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.000094                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total               1488455                       # number of overall misses
+system.l2.overall_miss_rate::total           0.999944                       # miss rate for overall accesses
+system.l2.overall_accesses::total             1488538                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152
+
+
+~~~~~~~~~~~~~~~~~~SPEC_CPU2006 Benchmark CPU_FREQ=1.5GHz~~~~~~~~~~~~~~~~~~
+
+
+
+Specbzip~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.109754                       # Number of seconds simulated
+sim_insts                                   100000001                       # Number of instructions simulated
+system.cpu.cpi                               1.645488                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000001                       # Number of instructions committed
+system.cpu.committedOps                     100196363                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       667                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total        769950                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.014785                       # miss rate for overall accesses
+system.cpu.dcache.replacements                 710578                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total           747                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.000077                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total                200997                       # number of overall misses
+system.l2.overall_miss_rate::total           0.282160                       # miss rate for overall accesses
+system.l2.overall_accesses::total              712350                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152
+
+Specbmcf~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.086162                       # Number of seconds simulated
+sim_insts                                   100000001                       # Number of instructions simulated
+system.cpu.cpi                               1.291785                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000001                       # Number of instructions committed
+system.cpu.committedOps                     109431937                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       667                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total         75340                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.002108                       # miss rate for overall accesses
+system.cpu.dcache.replacements                  54453                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total        668914                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.023621                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total                 39875                       # number of overall misses
+system.l2.overall_miss_rate::total           0.055046                       # miss rate for overall accesses
+system.l2.overall_accesses::total              724391                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152
+
+Spechmmer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.079149                       # Number of seconds simulated
+sim_insts                                   100000000                       # Number of instructions simulated
+system.cpu.cpi                               1.186641                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000000                       # Number of instructions committed
+system.cpu.committedOps                     101102729                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       667                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total         71884                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.001637                       # miss rate for overall accesses
+system.cpu.dcache.replacements                  65718                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total          3823                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.000221                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total                  5487                       # number of overall misses
+system.l2.overall_miss_rate::total           0.077758                       # miss rate for overall accesses
+system.l2.overall_accesses::total               70565                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152
+
+Specsjeng~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.581937                       # Number of seconds simulated
+sim_insts                                   100000000                       # Number of instructions simulated
+system.cpu.cpi                               8.724686                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000000                       # Number of instructions committed
+system.cpu.committedOps                     184174857                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       667                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total      10523858                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.121831                       # miss rate for overall accesses
+system.cpu.dcache.replacements                5262377                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total           649                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.000020                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total               5263903                       # number of overall misses
+system.l2.overall_miss_rate::total           0.999972                       # miss rate for overall accesses
+system.l2.overall_accesses::total             5264051                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152
+
+Speclibm~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#General info
+sim_seconds                                  0.205034                       # Number of seconds simulated
+sim_insts                                   100000000                       # Number of instructions simulated
+system.cpu.cpi                               3.073968                       # CPI: cycles per instruction
+system.cpu.committedInsts                   100000000                       # Number of instructions committed
+system.cpu.committedOps                     100003637                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       667                       # Clock period in ticks
+
+#L1.Data Cache
+system.cpu.dcache.overall_misses::total       2975816                       # number of overall misses
+system.cpu.dcache.overall_miss_rate::total     0.060972                       # miss rate for overall accesses
+system.cpu.dcache.replacements                1486955                       # number of replacements
+
+#L1.Instruction Cache
+system.cpu.icache.overall_misses::total           558                       # number of overall misses
+system.cpu.icache.overall_miss_rate::total     0.000094                       # miss rate for overall accesses
+
+#L2 Cache
+system.l2.overall_misses::total               1488455                       # number of overall misses
+system.l2.overall_miss_rate::total           0.999944                       # miss rate for overall accesses
+system.l2.overall_accesses::total             1488538                       # number of overall (read+write) accesses
+
+#Congig Stats
+
+cache_line_size=64
+assoc=2
+size=65536
+assoc=2
+size=32768
+assoc=8
+size=2097152

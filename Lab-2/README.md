@@ -8,6 +8,9 @@
 ## **Βήμα 1**
 
 ### Ερώτημα 1
+![image](https://user-images.githubusercontent.com/81879767/146050784-4213a4bf-f145-4865-ac59-ce3112961eb3.png)
+
+
 
 
 

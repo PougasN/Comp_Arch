@@ -35,7 +35,8 @@
 
 ### Ερώτημα 3
 
-Αρχικά με τα default options έχουμε: ``system.clk_domain.clock 1000`` και ``system.cpu_clk_domain.clock 500`` άρα ρολόι χρονισμού για την προσομοίωση στα 2GHz.
+Αρχικά με τα default options έχουμε: ``system.clk_domain.clock 1000`` και ``system.cpu_clk_domain.clock 500`` άρα ρολόι χρονισμού για την προσομοίωση στα 2GHz. Την 2η φορά έχουμε ``system.clk_domain.clock 1000`` και ``system.cpu_clk_domain.clock 667`` άρα ρολόι χρονισμού για την προσομοίωση στα 1.5GHz.
+
 Τρέχουμε ξανά τα benchmarks αυτή τη φορά όμως με το ρολόι χρονισμένο στα 1,5 GHz (--cpu=clock=1.5GHz) και οι πληροφορίες που παίρνουμε παράγουν τα παρακάτω γραφήματα:
 
 ![image](https://user-images.githubusercontent.com/81879767/146051754-04ac2749-cab7-4f05-98e8-e911da9826e2.png)

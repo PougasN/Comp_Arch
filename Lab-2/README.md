@@ -22,14 +22,22 @@
 | L2 cache associativity  | 8  |
 
 ### Ερώτημα 2
+
+Καταγράφοντας τα δεδομένα για τα εκάστοτε benchmark και χρησιμοποιώντας τις πληροφορίες για το καθένα από αυτά έχουμε τα παρακάτω γραφήματα:
+
 ![image](https://user-images.githubusercontent.com/81879767/146050784-4213a4bf-f145-4865-ac59-ce3112961eb3.png)
 ![image](https://user-images.githubusercontent.com/81879767/146051677-8ade9996-4542-4e66-8a31-14cefdd74884.png)
 ![image](https://user-images.githubusercontent.com/81879767/146051706-37002c9c-3872-4bb2-b609-de2f44fd1ed3.png)
 ![image](https://user-images.githubusercontent.com/81879767/146051718-73ed6040-cdd1-4e3e-a050-aca3bee29023.png)
 ![image](https://user-images.githubusercontent.com/81879767/146051730-5863c9de-f779-4932-bcbf-eaff05583113.png)
 
+Παρατηρήσεις: !!!
 
 ### Ερώτημα 3
+
+Αρχικά με τα default options έχουμε: <mark>system.clk_domain.clock 1000</mark> και system.cpu_clk_domain.clock 500 άρα ρολόι χρονισμού για την προσομοίωση στα 2GHz.
+Τρέχουμε ξανά τα benchmarks αυτή τη φορά όμως με το ρολόι χρονισμένο στα 1,5 GHz (--cpu=clock=1.5GHz) και οι πληροφορίες που παίρνουμε παράγουν τα παρακάτω γραφήματα:
+
 ![image](https://user-images.githubusercontent.com/81879767/146051754-04ac2749-cab7-4f05-98e8-e911da9826e2.png)
 ![image](https://user-images.githubusercontent.com/81879767/146051764-1688846a-7325-403a-bff5-919805aedf20.png)
 ![image](https://user-images.githubusercontent.com/81879767/146051780-40985c70-ea7e-42f3-a07c-8d6d426ed994.png)

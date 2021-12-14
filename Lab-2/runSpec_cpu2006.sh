@@ -3,7 +3,7 @@
 OUTPUT_TXT="test_info.txt"
 SCRIPT="configs/example/se.py"
 SCRIPTFLAGS="--cpu-type=MinorCPU --caches --l2cache"
-INSTCAP=100000
+INSTCAP=100000000
 
 function get_stats(){
 	echo -e "\n#General info"

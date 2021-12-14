@@ -9,6 +9,15 @@
 
 ### Ερώτημα 1
 
+Cache Line size	64
+L1 dcache size	64kB
+L1 dcache associativity	2
+L1 icache size	32kB
+L1 icache associativity	2
+L2 cache size	2MB
+L2 cache associativity	8
+
+
 
 ### Ερώτημα 2
 ![image](https://user-images.githubusercontent.com/81879767/146050784-4213a4bf-f145-4865-ac59-ce3112961eb3.png)

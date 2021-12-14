@@ -9,7 +9,7 @@
 
 ### Ερώτημα 1
 
-Υλοιποιώντας το runSpec_cpu2006.sh και μέσα απο το παραγόμενο αρχείο test_info.txt έχουμε τα παρακάτω δεδομένα.
+Υλοιποιώντας το [runSpec_cpu2006.sh](https://github.com/PougasN/Comp_Arch/blob/main/Lab-2/runSpec_cpu2006.sh) και μέσα απο το παραγόμενο αρχείο test_info.txt έχουμε τα παρακάτω δεδομένα.
 
 | Parameter  | Value |
 | ------------- | ------------- |

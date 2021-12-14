@@ -8,13 +8,21 @@
 ## **Βήμα 1**
 
 ### Ερώτημα 1
-![image](https://user-images.githubusercontent.com/81879767/146050784-4213a4bf-f145-4865-ac59-ce3112961eb3.png)
-
-
-
 
 
 ### Ερώτημα 2
+![image](https://user-images.githubusercontent.com/81879767/146050784-4213a4bf-f145-4865-ac59-ce3112961eb3.png)
+![image](https://user-images.githubusercontent.com/81879767/146051677-8ade9996-4542-4e66-8a31-14cefdd74884.png)
+![image](https://user-images.githubusercontent.com/81879767/146051706-37002c9c-3872-4bb2-b609-de2f44fd1ed3.png)
+![image](https://user-images.githubusercontent.com/81879767/146051718-73ed6040-cdd1-4e3e-a050-aca3bee29023.png)
+![image](https://user-images.githubusercontent.com/81879767/146051730-5863c9de-f779-4932-bcbf-eaff05583113.png)
+
 
 ### Ερώτημα 3
+![image](https://user-images.githubusercontent.com/81879767/146051754-04ac2749-cab7-4f05-98e8-e911da9826e2.png)
+![image](https://user-images.githubusercontent.com/81879767/146051764-1688846a-7325-403a-bff5-919805aedf20.png)
+![image](https://user-images.githubusercontent.com/81879767/146051780-40985c70-ea7e-42f3-a07c-8d6d426ed994.png)
+![image](https://user-images.githubusercontent.com/81879767/146051791-e660438d-029e-4c85-aade-7d755dc628fa.png)
+![image](https://user-images.githubusercontent.com/81879767/146051799-73a156ef-d4c0-41b9-8b0b-e3ff46931815.png)
+
 

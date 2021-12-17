@@ -62,6 +62,10 @@
 
 Έτσι απο τις πληροφορίες για το **cpi**, **L1_data miss rate**, **L1_instruction miss rate** και **L2 miss rate** κάνουμε για κάθε benchmark την εξής ανάλυση:
 
+Στα παρακάτω διαγράμματα οι πληροφορίες για κάθε config παρουσιαζονται ως εξής:
+
+``Cache_line_l1d_size_l1d_assoc_l1i_size_l1i_assoc_l2_size_l2_assoc``
+
 ### **Specbzip2**
 
 Απο τα γραφήματα στο βήμα 1 καταλαβαίνουμε πως απαιτούνται αλλαγές κυρίως στην **L1 data cache** και ίσως στο **L2 cache**.  

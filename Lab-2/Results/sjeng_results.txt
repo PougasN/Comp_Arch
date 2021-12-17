@@ -1,0 +1,9 @@
+Benchmarks	system,cpu,cpi	system,cpu,dcache,overall_miss_rate::total	system,cpu,icache,overall_miss_rate::total	system,l2,overall_miss_rate::total
+spec_results/specsjeng/Benchmarks/64_64kB_4_64kB_4_4MB_8	10,265028	0,121831	0,000019	0,999985
+spec_results/specsjeng/Benchmarks/64_64kB_8_64kB_4_4MB_8	10,265474	0,121831	0,000019	0,999985
+spec_results/specsjeng/Benchmarks/64_128kB_4_64kB_4_4MB_8	10,264886	0,121831	0,000019	0,999986
+spec_results/specsjeng/Benchmarks/64_128kB_8_64kB_4_4MB_8	10,265414	0,121831	0,000019	0,999986
+spec_results/specsjeng/Benchmarks/128_64kB_4_64kB_4_4MB_8	6,795198	0,060918	0,000013	0,999973
+spec_results/specsjeng/Benchmarks/128_64kB_8_64kB_4_4MB_8	6,795331	0,060918	0,000013	0,999973
+spec_results/specsjeng/Benchmarks/128_128kB_4_64kB_4_4MB_8	6,795093	0,060918	0,000013	0,999976
+spec_results/specsjeng/Benchmarks/128_128kB_8_64kB_4_4MB_8	6,795198	0,060918	0,000013	0,999976

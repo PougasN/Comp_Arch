@@ -1,0 +1,9 @@
+Benchmarks	system,cpu,cpi	system,cpu,dcache,overall_miss_rate::total	system,cpu,icache,overall_miss_rate::total	system,l2,overall_miss_rate::total
+spec_results/spechmmer/Benchmarks/64_64kB_4_32kB_2_2MB_8	1,187732	0,001587	0,000215	0,080373
+spec_results/spechmmer/Benchmarks/64_64kB_4_32kB_2_4MB_8	1,187732	0,001587	0,000215	0,080373
+spec_results/spechmmer/Benchmarks/64_64kB_4_32kB_4_2MB_8	1,187564	0,001587	0,000143	0,081867
+spec_results/spechmmer/Benchmarks/64_64kB_4_32kB_4_4MB_8	1,187564	0,001587	0,000143	0,081867
+spec_results/spechmmer/Benchmarks/64_64kB_4_64kB_2_2MB_8	1,187425	0,001587	0,000087	0,083158
+spec_results/spechmmer/Benchmarks/64_64kB_4_64kB_2_4MB_8	1,187425	0,001587	0,000087	0,083158
+spec_results/spechmmer/Benchmarks/64_64kB_4_64kB_4_2MB_8	1,187425	0,001587	0,000083	0,083212
+spec_results/spechmmer/Benchmarks/64_64kB_4_64kB_4_4MB_8	1,187425	0,001587	0,000083	0,083212

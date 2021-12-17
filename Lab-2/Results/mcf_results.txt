@@ -1,0 +1,10 @@
+Benchmarks	system,cpu,cpi	system,cpu,dcache,overall_miss_rate::total	system,cpu,icache,overall_miss_rate::total	system,l2,overall_miss_rate::total
+spec_results/specmcf/Benchmarks/64_64kB_4_32kB_2_2MB_8	1,298668	0,001970	0,023611	0,055307
+spec_results/specmcf/Benchmarks/64_64kB_4_32kB_4_2MB_8	1,155172	0,001970	0,000019	0,759883
+spec_results/specmcf/Benchmarks/64_64kB_4_32kB_8_2MB_8	1,155172	0,001970	0,000018	0,759975
+spec_results/specmcf/Benchmarks/64_64kB_4_64kB_2_2MB_8	1,155433	0,001970	0,000018	0,759903
+spec_results/specmcf/Benchmarks/64_64kB_4_64kB_4_2MB_8	1,155068	0,001970	0,000018	0,760014
+spec_results/specmcf/Benchmarks/64_64kB_4_64kB_8_2MB_8	1,155067	0,001970	0,000018	0,760014
+spec_results/specmcf/Benchmarks/64_64kB_4_128kB_2_2MB_8	1,155067	0,001970	0,000018	0,760014
+spec_results/specmcf/Benchmarks/64_64kB_4_128kB_4_2MB_8	1,155067	0,001970	0,000018	0,760014
+spec_results/specmcf/Benchmarks/64_64kB_4_128kB_8_2MB_8	1,155067	0,001970	0,000018	0,760014

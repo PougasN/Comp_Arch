@@ -1,0 +1,17 @@
+Benchmarks	system,cpu,cpi	system,cpu,dcache,overall_miss_rate::total	system,cpu,icache,overall_miss_rate::total	system,l2,overall_miss_rate::total
+spec_results/specbzip/Benchmarks/64_64kB_2_64kB_2_2MB_8	1,679876	0,014800	0,000072	0,282148
+spec_results/specbzip/Benchmarks/64_64kB_2_64kB_2_4MB_8	1,654139	0,014796	0,000072	0,251738
+spec_results/specbzip/Benchmarks/64_64kB_4_64kB_2_2MB_8	1,663903	0,013335	0,000072	0,315925
+spec_results/specbzip/Benchmarks/64_64kB_4_64kB_2_4MB_8	1,637875	0,013333	0,000072	0,281882
+spec_results/specbzip/Benchmarks/64_128kB_2_64kB_2_2MB_8	1,650388	0,011748	0,000072	0,363126
+spec_results/specbzip/Benchmarks/64_128kB_2_64kB_2_4MB_8	1,624346	0,011745	0,000072	0,323989
+spec_results/specbzip/Benchmarks/64_128kB_4_64kB_2_2MB_8	1,642646	0,010953	0,000072	0,392473
+spec_results/specbzip/Benchmarks/64_128kB_4_64kB_2_4MB_8	1,616720	0,010950	0,000072	0,350175
+spec_results/specbzip/Benchmarks/128_64kB_2_64kB_2_2MB_8	1,666316	0,014358	0,000056	0,173828
+spec_results/specbzip/Benchmarks/128_64kB_2_64kB_2_4MB_8	1,648837	0,014349	0,000056	0,154255
+spec_results/specbzip/Benchmarks/128_64kB_4_64kB_2_2MB_8	1,649570	0,012825	0,000056	0,195878
+spec_results/specbzip/Benchmarks/128_64kB_4_64kB_2_4MB_8	1,632106	0,012815	0,000056	0,173824
+spec_results/specbzip/Benchmarks/128_128kB_2_64kB_2_2MB_8	1,634539	0,010770	0,000056	0,236019
+spec_results/specbzip/Benchmarks/128_128kB_2_64kB_2_4MB_8	1,616977	0,010761	0,000056	0,209448
+spec_results/specbzip/Benchmarks/128_128kB_4_64kB_2_2MB_8	1,625782	0,009840	0,000056	0,260135
+spec_results/specbzip/Benchmarks/128_128kB_4_64kB_2_4MB_8	1,608111	0,009832	0,000056	0,230848

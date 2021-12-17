@@ -28,7 +28,7 @@ system.l2.overall_misses::total                200996                       # nu
 system.l2.overall_miss_rate::total           0.282163                       # miss rate for overall accesses
 system.l2.overall_accesses::total              712341                       # number of overall (read+write) accesses
 
-#Congig Stats
+#Config Stats
 
 cache_line_size=64
 assoc=2

@@ -22,12 +22,10 @@
 | L2 cache associativity  | 8  |
 
 ``
-system.cpu.committedInsts                   100000001                       # Number of instructions committed
-system.cpu.committedOps                     100196363                       # Number of ops (including micro ops) committed
-
-#clk_domain
-system.clk_domain.clock                          1000                       # Clock period in ticks
-system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+system.cpu.committedInsts   |                100000001              |       # Number of instructions committed              |
+system.cpu.committedOps      |               100196363              |        # Number of ops (including micro ops) committed |
+system.clk_domain.clock      |                    1000              |         # Clock period in ticks       |
+system.cpu_clk_domain.clock    |                   500              |          # Clock period in ticks     |
 ``
 
 ### Ερώτημα 2

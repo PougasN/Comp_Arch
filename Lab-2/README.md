@@ -20,13 +20,7 @@
 | L1 icache associativity  | 2  |
 | L2 cache size  | 2MB  |
 | L2 cache associativity  | 8  |
-
-| Parameter  | Value |
-| ------------- | ------------- |
-|system.cpu.committedInsts   |                100000001              |       
-|system.cpu.committedOps      |               100196363              |       
-|system.clk_domain.clock      |                    1000              |         
-|system.cpu_clk_domain.clock    |                   500              |         
+         
 
 
 ### Ερώτημα 2

@@ -47,5 +47,85 @@
 
 Παρατηρήσεις: !!!
 
-![image](https://github.com/PougasN/Comp_Arch/blob/main/Lab-2/Graphs/bzip2/bzip_cpi.png | width=400)
+## **Βήμα 2**
+
+Ο χώρος των δυνατών συνδιασμών για τα χαρακτηρστικά του simulation είναι πολυ μεγάλος ωστε να δοκιμάσουμε κάθε συνδιασμό για βελτιστοποίηση του συστήματος.Απο τα γραφήματα και τις πληροφορίες του βήματος 1 όμως, βλέπουμε τις αδυναμίες του setup μας για κάθε benchmark και συνεπώς μπορούμε να επικεντρωθούμε στους τομείς αυτούς.
+
+Για την αυτοματοποίηση των Benchmark tests φτίαξαμε και χρησιμοποιήσαμε το shell script **run_benchmarks.sh** το οποίο παίρνει σαν Input ενα .ini αρχείο για την εισαγωγή των επιλογών και των πληροφοριών κάθε benchmark.
+
+Έτσι απο τις πληροφορίες για το **cpi**, **L1_data miss rate**, **L1_instruction miss rate** και **L2 miss rate** κάνουμε για το κάθε benchmark την εξής ανάλυση:
+
+### **Specbzip2**
+
+Απο τα γραφήματα στο βήμα 1 καταλαβαίνουμε πως απαιτούνται αλλαγές κυρίως στην **L1 data cache** και ίσως στο **L2 cache**.  
+Για το L1_d  βλεπουμε σχετικά αυξημένο miss rate επομένως:
+  
+  * Αυξάνουμε το μέγεθος (32kB->64kB).
+  * Αυξάνουμε το Associativity (2->4).
+
+Αντίστοιχα και στο L2 βλέπουμε σχετικά υψηλό miss rate και ετσι:
+
+  * Αυξάνουμε το L2 size (2MB->4MB)
+  * Aν δεν ήταν ηδη 8-way το associativity θα προτείνονταν αύξηση του.
+  * Αύξηση του Cache line (64->128).
+
+![bzip_cpi](https://github.com/PougasN/Comp_Arch/blob/main/Lab-2/Graphs/bzip2/bzip_cpi.png)
+
+### **Specmcf**
+
+Απο τις πληροφορίες του βήματος 1 βλέπουμε πως για το mcf πρέπει να εστιάσουμε στην **L1 Instruction cache**.  
+Βλέπουμε στο L1_i υψιλό miss rate και συνεπώς προτείνεται:
+
+* Αύξηση του L1_i size (32kB->128kB).
+* Αύξηση του L1_i Associativity (2->8).
+
+![mcf_cpi](https://github.com/PougasN/Comp_Arch/blob/main/Lab-2/Graphs/mcf/mcf_cpi.png)
+
+### **Spechmmer**
+
+To hmmer είχε ακόμα και με το default setup πολύ καλο cpi και χρόνο εκτέλεσης.Παρ'όλα αυτά, παρουσιάζει μικρή αυξηση στα miss rates των L1_Instruction Cache και L2 Cache.  
+Επομένως ως βελτίωση για το L1_i προτείνεται:
+  
+  * Αύξηση του μεγέθους του L1_i (32kB->64kB).
+  * Αύξηση του Associativity (2->4).
+
+Kαι για το L2 cache προτείνεται:
+
+* Αύξηση του L2 size (2MB-4MB).
+* (Aν δεν ήταν ηδη 8-way το associativity θα προτείνονταν αύξηση του.)
+  
+![hmmer_cpi](https://github.com/PougasN/Comp_Arch/blob/main/Lab-2/Graphs/hmmer/hmmer_cpi.png)
+
+### **Specsjeng**
+
+Απο τα διαγράμματα του βήματος 1 βλέπουμε πως το sjeng παρουσιάζει πολύ υψιλό L1 Data Cache miss rate και πολύ υψιλό L2 miss rate.  
+
+Έτσι, για την βελτίωση του L1 data cache θα πρέπει να:
+
+* Αυξήσουμε το L1_d Size(64kB->128kB)
+* Αυξήσουμε το Αssociativity (2->8)
+
+Επιπλέον για την βελτίωση του L2 μπορούμε να:
+
+* Αυξήσουμε το L2 Size (2MB->4MB)
+* Αυξήσουμε το Cache Line μας (64->128)
+  
+![sjeng_cpi](https://github.com/PougasN/Comp_Arch/blob/main/Lab-2/Graphs/sjeng/sjeng_cpi.png)
+
+
+### **Speclibm**
+
+Τέλος για το libm βλέπουμ και πάλι αυξημένο miss rate στα L1 data cache και L2 cache και συνεπώς επικεντρωνομασται στην αλλγή αυτών.
+
+Έτσι, για την βελτίωση του L1 data cache θα πρέπει να:
+
+* Αυξήσουμε το L1_d Size(64kB->128kB)
+* Αυξήσουμε το Αssociativity (2->8)
+
+Για την βελτίωση του L2 μπορούμε να:
+
+* Αυξήσουμε το L2 Size (2MB->4MB)
+* Αυξήσουμε το Cache Line μας (64->128)
+
+![libm_cpi](https://github.com/PougasN/Comp_Arch/blob/main/Lab-2/Graphs/libm/libm_cpi.png)
 

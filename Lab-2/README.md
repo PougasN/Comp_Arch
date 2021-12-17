@@ -21,11 +21,12 @@
 | L2 cache size  | 2MB  |
 | L2 cache associativity  | 8  |
 
-| ------------- | ------------- |-----|
-system.cpu.committedInsts   |                100000001              |       # Number of instructions committed              |
-system.cpu.committedOps      |               100196363              |        # Number of ops (including micro ops) committed |
-system.clk_domain.clock      |                    1000              |         # Clock period in ticks       |
-system.cpu_clk_domain.clock    |                   500              |          # Clock period in ticks     |
+| Parameter  | Value |
+| ------------- | ------------- |
+|system.cpu.committedInsts   |                100000001              |       
+|system.cpu.committedOps      |               100196363              |       
+|system.clk_domain.clock      |                    1000              |         
+|system.cpu_clk_domain.clock    |                   500              |         
 
 
 ### Ερώτημα 2

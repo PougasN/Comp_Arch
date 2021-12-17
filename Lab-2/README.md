@@ -21,6 +21,15 @@
 | L2 cache size  | 2MB  |
 | L2 cache associativity  | 8  |
 
+``
+system.cpu.committedInsts                   100000001                       # Number of instructions committed
+system.cpu.committedOps                     100196363                       # Number of ops (including micro ops) committed
+
+#clk_domain
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+``
+
 ### Ερώτημα 2
 
 Καταγράφοντας τα δεδομένα για τα εκάστοτε benchmark και χρησιμοποιώντας τις πληροφορίες για το καθένα από αυτά έχουμε τα παρακάτω γραφήματα:

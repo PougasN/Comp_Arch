@@ -47,5 +47,5 @@
 
 Παρατηρήσεις: !!!
 
-![image](https://github.com/PougasN/Comp_Arch/blob/main/Lab-2/Graphs/bzip2/bzip_cpi.png =600x600)
+![image](https://github.com/PougasN/Comp_Arch/blob/main/Lab-2/Graphs/bzip2/bzip_cpi.png | width=400)
 

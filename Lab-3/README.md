@@ -21,15 +21,15 @@
 
 ### Ερώτημα 2
 
-There are several factors contributing to the CPU power consumption; they include dynamic power consumption, short-circuit power consumption, and power loss due to transistor leakage currents:
+        There are several factors contributing to the CPU power consumption; they include dynamic power consumption, short-circuit power consumption, and power loss due to transistor leakage currents:
 
-{\displaystyle P_{cpu}=P_{dyn}+P_{sc}+P_{leak}}P_{{cpu}}=P_{{dyn}}+P_{{sc}}+P_{{leak}}
+        {\displaystyle P_{cpu}=P_{dyn}+P_{sc}+P_{leak}}P_{{cpu}}=P_{{dyn}}+P_{{sc}}+P_{{leak}}
 
-The dynamic power consumption originates from the activity of logic gates inside a CPU. When the logic gates toggle, energy is flowing as the capacitors inside them are charged and discharged. The dynamic power consumed by a CPU is approximately proportional to the CPU frequency, and to the square of the CPU voltage:[5]
+        The dynamic power consumption originates from the activity of logic gates inside a CPU. When the logic gates toggle, energy is flowing as the capacitors inside them are charged and discharged. The dynamic power consumed by a CPU is approximately proportional to the CPU frequency, and to the square of the CPU voltage:[5]
 
-{\displaystyle P_{dyn}=CV^{2}f}{\displaystyle P_{dyn}=CV^{2}f}
+        {\displaystyle P_{dyn}=CV^{2}f}{\displaystyle P_{dyn}=CV^{2}f}
 
-where C is the switched load capacitance, f is frequency, V is voltage.
+        where C is the switched load capacitance, f is frequency, V is voltage.
 
 When logic gates toggle, some transistors inside may change states. As this takes a finite amount of time, it may happen that for a very brief amount of time some transistors are conducting simultaneously. A direct path between the source and ground then results in some short-circuit power loss ({\displaystyle P_{sc}}{\displaystyle P_{sc}}). The magnitude of this power is dependent on the logic gate, and is rather complex to model on a macro level.
 

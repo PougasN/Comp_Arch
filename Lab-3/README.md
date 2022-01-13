@@ -42,23 +42,23 @@
     Runtime Dynamic = 2.96053 W
 
 
-#### P_Xeon= Runtime_dynamic + Total_Leakage= 72.9199 + 36.8319= 109.7518
+        P_Xeon= Runtime_dynamic + Total_Leakage= 72.9199 + 36.8319= 109.7518
 
-#### P_ARM = Runtime_dynamic + Total_Leakage =2.96053 + 0.108687= 3.069217
+        P_ARM = Runtime_dynamic + Total_Leakage =2.96053 + 0.108687= 3.069217
 
 #### Κατα την εκτέλεση της εφαρμογής η ενέργεια που καταναλώνει ο κάθε επεξεργαστής θα είναι:
 
-#### Ε_Xeon= P_Xeon* Δt_Xeon
+        Ε_Xeon= P_Xeon* Δt_Xeon
 
-#### E_Arm= P_ARM* Δt_ARM
+        E_Arm= P_ARM* Δt_ARM
 
 #### Υποθέσαμε όμως πως Δt_ARM = 40*Δt_Xeon
 #### Άρα έχουμε:
 
-#### Ε_Xeon/E_ΑΡΜ=P_Xeon* Δt_Xeon/(P_ARM* Δt_ARM)=35,758*(Δt_Xeon/Δt_ARM)=35,758/40= 0,8939
+        Ε_Xeon/E_ΑΡΜ=P_Xeon* Δt_Xeon/(P_ARM* Δt_ARM)=35,758*(Δt_Xeon/Δt_ARM)=35,758/40= 0,8939
 
 #### Αρα κατα την εκτέλεση ο Xeon είναι πιο energy efficient απο τον ARM, αλλά εφόσον δεν έχουμε διακοπή λειτουργίας του συστήματος μετα την εκτέλεση της εφαρμογής το μεγαλύτερο ποσοστό κατανάλωσης ενέργειας οφείλεται στην στατική ισχύ (Total Leakage) όπου:
 
     P_static_Xeon= 338,8 * P_static_ARM 
 
-#### και συνεπώς ο Xeon δεν μπορει να είναι πιο energy efficient απο τον ARM στο παρών σενάριο
+#### και συνεπώς ο Xeon δεν μπορει να είναι πιο energy efficient απο τον ARM στο παρών σενάριο.

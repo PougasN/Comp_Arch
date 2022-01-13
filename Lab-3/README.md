@@ -42,9 +42,9 @@
     Runtime Dynamic = 2.96053 W
 
 
-        P_Xeon= Runtime_dynamic + Total_Leakage= 72.9199 + 36.8319= 109.7518
+```P_Xeon= Runtime_dynamic + Total_Leakage= 72.9199 + 36.8319= 109.7518```
 
-        P_ARM = Runtime_dynamic + Total_Leakage =2.96053 + 0.108687= 3.069217
+```P_ARM = Runtime_dynamic + Total_Leakage =2.96053 + 0.108687= 3.069217```
 
 #### Κατα την εκτέλεση της εφαρμογής η ενέργεια που καταναλώνει ο κάθε επεξεργαστής θα είναι:
 

@@ -21,7 +21,7 @@
 
 ### Ερώτημα 2
 
-```There are several factors contributing to the CPU power consumption; they include dynamic power consumption, short-circuit power consumption, and power loss due to transistor leakage currents:
+There are several factors contributing to the CPU power consumption; they include dynamic power consumption, short-circuit power consumption, and power loss due to transistor leakage currents:
 
 {\displaystyle P_{cpu}=P_{dyn}+P_{sc}+P_{leak}}P_{{cpu}}=P_{{dyn}}+P_{{sc}}+P_{{leak}}
 
@@ -36,14 +36,13 @@ When logic gates toggle, some transistors inside may change states. As this take
 Power consumption due to leakage power ({\displaystyle P_{leak}}{\displaystyle P_{leak}}) emanates at a micro-level in transistors. Small amounts of currents are always flowing between the differently doped parts of the transistor. The magnitude of these currents depend on the state of the transistor, its dimensions, physical properties and sometimes temperature. The total amount of leakage currents tends to inflate for increasing temperature and decreasing transistor sizes.
 
 Both dynamic and short-circuit power consumption are dependent on the clock frequency, while the leakage current is dependent on the CPU supply voltage. It has been shown that the energy consumption of a program shows convex energy behavior, meaning that there exists an optimal CPU frequency at which energy consumption is minimal for the work done.
-```
+
 
 Σύμφωνα με τα παραπάνω καθώς και άλλες πληροφορίες των papers που περιγράφουν το McPAT συμπεραίνουμε ότι Dynamic Power είναι η ωφέλιμη ισχύς του επεξεργαστή κατά την λειτουργία του, ενώ Leakage Power είναι η ισχύς απώλειων του επεξεργαστή.
 
 Αν προσπαθήσουμε να τρέξουμε διαφορετικά προγράμματα σε έναν επεξεργαστή θα επηρεαστεί μόνο το dynamic power επειδή εξαρτάται απο τη συχνότητα λειτουργίας του επεξεργαστή η οποία είναι ανάλογη των υπολογιστικών απαιτήσεων ενός προγράμματος. Το leakage power το οποίο εξαρτάται απο την τάση τροφοδοσίας παραμένει το ίδιο για κάθε πρόγραμμα.
 
-
-
+Η ισχύς ωφέλιμη ή απωλειών δεν επηρεάζεται από την χρονική διάρκεια του εκάστοτε προγράμματος.
 
 ### Ερώτημα 3
 

@@ -9,6 +9,12 @@
 
 ### Ερώτημα 1
 
+#### Οι επεξεργαστές οι οποίοι χρησιμοποιούνται είναι οι εξής : 
+        the 90nm Niagara processor        [24] running at 1.2GHz with a 1.2V  power supply
+        the 65nm Niagara2 processor       [31] running at 1.4GHz with a 1.1V  power supply
+        the 65nm Xeon processor           [37] running at 3.4GHz with a 1.25V power supply
+        the 180nm Alpha 21364 processor   [17] running at 1.2GHz with a 1.5V  power supply
+
 ### Ερώτημα 2
 
 ### Ερώτημα 3

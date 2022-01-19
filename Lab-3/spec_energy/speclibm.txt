@@ -1,0 +1,64 @@
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/128_128kB_4_64kB_2_2MB_8.txt
+leakage: 1.492350 W, dynamic: 0.613654 W and runtime: 0.129064 sec
+energy is 271.809300 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/128_128kB_4_64kB_2_4MB_8.txt
+leakage: 1.485990 W, dynamic: 0.603250 W and runtime: 0.128830 sec
+energy is 269.156789 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/128_128kB_8_64kB_2_2MB_8.txt
+leakage: 1.515850 W, dynamic: 0.672766 W and runtime: 0.129064 sec
+energy is 282.471535 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/128_128kB_8_64kB_2_4MB_8.txt
+leakage: 1.509490 W, dynamic: 0.662470 W and runtime: 0.128830 sec
+energy is 279.813607 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/128_64kB_4_64kB_2_2MB_8.txt
+leakage: 1.353920 W, dynamic: 0.411630 W and runtime: 0.129064 sec
+energy is 227.868945 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/128_64kB_4_64kB_2_4MB_8.txt
+leakage: 1.347560 W, dynamic: 0.400851 W and runtime: 0.128830 sec
+energy is 225.247789 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/128_64kB_8_64kB_2_2MB_8.txt
+leakage: 1.486550 W, dynamic: 0.670382 W and runtime: 0.129064 sec
+energy is 278.382272 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/128_64kB_8_64kB_2_4MB_8.txt
+leakage: 1.480190 W, dynamic: 0.660074 W and runtime: 0.128830 sec
+energy is 275.730211 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/64_128kB_4_64kB_2_2MB_8.txt
+leakage: 1.587560 W, dynamic: 0.258974 W and runtime: 0.174671 sec
+energy is 322.535940 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/64_128kB_4_64kB_2_4MB_8.txt
+leakage: 1.592470 W, dynamic: 0.261714 W and runtime: 0.174479 sec
+energy is 323.516170 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/64_128kB_8_64kB_2_2MB_8.txt
+leakage: 1.392750 W, dynamic: 0.299021 W and runtime: 0.174671 sec
+energy is 295.503332 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/64_128kB_8_64kB_2_4MB_8.txt
+leakage: 1.397660 W, dynamic: 0.301804 W and runtime: 0.174479 sec
+energy is 296.520779 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/64_64kB_4_64kB_2_2MB_8.txt
+leakage: 1.283060 W, dynamic: 0.208545 W and runtime: 0.174671 sec
+energy is 260.540137 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/64_64kB_4_64kB_2_4MB_8.txt
+leakage: 1.287980 W, dynamic: 0.211230 W and runtime: 0.174479 sec
+energy is 261.580662 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/64_64kB_8_64kB_2_2MB_8.txt
+leakage: 1.303730 W, dynamic: 0.253700 W and runtime: 0.174671 sec
+energy is 272.037856 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/speclibm/64_64kB_8_64kB_2_4MB_8.txt
+leakage: 1.308640 W, dynamic: 0.256435 W and runtime: 0.174479 sec
+energy is 273.072721 mJ
+ 

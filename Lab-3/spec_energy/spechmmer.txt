@@ -1,0 +1,32 @@
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/spechmmer/64_64kB_4_32kB_2_2MB_8.txt
+leakage: 0.878176 W, dynamic: 0.397983 W and runtime: 0.059387 sec
+energy is 75.787255 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/spechmmer/64_64kB_4_32kB_2_4MB_8.txt
+leakage: 0.883087 W, dynamic: 0.398643 W and runtime: 0.059387 sec
+energy is 76.118100 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/spechmmer/64_64kB_4_32kB_4_2MB_8.txt
+leakage: 0.957426 W, dynamic: 0.398013 W and runtime: 0.059378 sec
+energy is 80.483257 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/spechmmer/64_64kB_4_32kB_4_4MB_8.txt
+leakage: 0.962337 W, dynamic: 0.398661 W and runtime: 0.059378 sec
+energy is 80.813339 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/spechmmer/64_64kB_4_64kB_2_2MB_8.txt
+leakage: 1.283060 W, dynamic: 0.398021 W and runtime: 0.059371 sec
+energy is 99.807460 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/spechmmer/64_64kB_4_64kB_2_4MB_8.txt
+leakage: 1.287980 W, dynamic: 0.398657 W and runtime: 0.059371 sec
+energy is 100.137325 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/spechmmer/64_64kB_4_64kB_4_2MB_8.txt
+leakage: 1.007970 W, dynamic: 0.398019 W and runtime: 0.059371 sec
+energy is 83.474973 mJ
+ 
+Reading simulation time from: /home/arch/Desktop/mcpat/spec_mcpat_out/spechmmer/64_64kB_4_64kB_4_4MB_8.txt
+leakage: 1.012880 W, dynamic: 0.398655 W and runtime: 0.059371 sec
+energy is 83.804244 mJ
+ 

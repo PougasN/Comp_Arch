@@ -103,3 +103,17 @@ energy consumption of a program shows convex energy behavior, meaning that there
 ```P_static_Xeon= 338,8 * P_static_ARM ```
 
 #### και συνεπώς ο Xeon δεν μπορει να είναι πιο energy efficient απο τον ARM στο παρών σενάριο.
+
+## **Βήμα 2**
+
+![specbzip-EDAP](https://user-images.githubusercontent.com/81879767/150416936-b8244a0e-7d99-47dc-bda2-2f4a5a698cb0.png)
+![spechmmer-EDAP](https://user-images.githubusercontent.com/81879767/150416968-c0c04bc7-44d7-4aeb-b46b-8a90497f3e36.png)
+![speclibm-EDAP](https://user-images.githubusercontent.com/81879767/150416980-4277c473-824d-475a-ad3e-bab5b4edccb8.png)
+![specmcf-edap](https://user-images.githubusercontent.com/81879767/150416989-10aa1c9a-93b5-4eb3-bffa-f9d53ef1cac8.png)
+![specsjeng-edap](https://user-images.githubusercontent.com/81879767/150417022-43c41bf4-dd3f-4361-834e-5bfe34152ea7.png)
+
+
+
+
+
+

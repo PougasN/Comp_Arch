@@ -117,7 +117,7 @@ energy consumption of a program shows convex energy behavior, meaning that there
 ### POWER
 
 ![specbzip-power](https://user-images.githubusercontent.com/81879767/150420118-5c4aabad-bbb6-404f-a44a-48eb05c6e627.png)
-![spechmmer-power](https://user-images.githubusercontent.com/81879767/150420126-105783e1-168a-405a-83d7-f15cb2815fd7.png)
+![spechmmer-power](https://user-images.githubusercontent.com/81879767/150420896-75482706-f880-4af6-b21f-0c63a159f283.png)
 ![speclibm-power](https://user-images.githubusercontent.com/81879767/150420137-3110097b-c12c-47b6-8f63-ad53b451f34a.png)
 ![specmcf-power](https://user-images.githubusercontent.com/81879767/150420141-4ef06c96-7d5b-4728-9e41-16d3c7e11d66.png)
 ![specsjeng-power](https://user-images.githubusercontent.com/81879767/150420147-4973ce0d-eb51-460e-a18e-6f3ac14106f1.png)
@@ -125,7 +125,7 @@ energy consumption of a program shows convex energy behavior, meaning that there
 ### AREA
 
 ![specbzip-area](https://user-images.githubusercontent.com/81879767/150420165-9935529c-4d54-4d5c-9809-6bb14b6e3011.png)
-![spechmmer-area](https://user-images.githubusercontent.com/81879767/150420169-08a9cf40-fe4f-42af-8a2c-153782516050.png)
+![spechmmer-area](https://user-images.githubusercontent.com/81879767/150420919-5db67dd1-00a9-4596-b064-bcc60f40450a.png)
 ![speclibm-area](https://user-images.githubusercontent.com/81879767/150420174-adc63d11-7ea2-43a1-86b1-56ef3a1efb85.png)
 ![specmcf-area](https://user-images.githubusercontent.com/81879767/150420182-aa53b54b-132d-4495-96e9-7dc6f7fcfb61.png)
 ![specsjeng-area](https://user-images.githubusercontent.com/81879767/150420189-37d9866f-33fd-485e-9ae5-a83a599fb75e.png)

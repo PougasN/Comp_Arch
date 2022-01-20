@@ -106,25 +106,39 @@ energy consumption of a program shows convex energy behavior, meaning that there
 
 ## **Βήμα 2**
 
-### EDAP
+### Διαγράμματα EDAP ( Energy * Delay * Area ) συναρτήσει παραμέτρων.
 
+#### Specbzip
 ![specbzip-EDAP](https://user-images.githubusercontent.com/81879767/150416936-b8244a0e-7d99-47dc-bda2-2f4a5a698cb0.png)
 
+#### Spechmmer
 ![spechmmer-EDAP](https://user-images.githubusercontent.com/81879767/150416968-c0c04bc7-44d7-4aeb-b46b-8a90497f3e36.png)
 
+#### Speclibm
 ![speclibm-EDAP](https://user-images.githubusercontent.com/81879767/150420571-19ec2f5d-6fae-40be-8faa-3527008839cf.png)
 
+#### Specmcf
 ![specmcf-edap](https://user-images.githubusercontent.com/81879767/150416989-10aa1c9a-93b5-4eb3-bffa-f9d53ef1cac8.png)
 
+#### Specsjeng
 ![specsjeng-edap](https://user-images.githubusercontent.com/81879767/150417022-43c41bf4-dd3f-4361-834e-5bfe34152ea7.png)
 
 
-### POWER
+### Διαγράμματα POWER ( Peak Power ) συναρτήσει παραμέτρων.
 
+#### Specbzip
 ![specbzip-power](https://user-images.githubusercontent.com/81879767/150420118-5c4aabad-bbb6-404f-a44a-48eb05c6e627.png)
+
+#### Spechmmer
 ![spechmmer-power](https://user-images.githubusercontent.com/81879767/150420896-75482706-f880-4af6-b21f-0c63a159f283.png)
+
+#### Speclibm
 ![speclibm-power](https://user-images.githubusercontent.com/81879767/150420137-3110097b-c12c-47b6-8f63-ad53b451f34a.png)
+
+#### Specmcf
 ![specmcf-power](https://user-images.githubusercontent.com/81879767/150420141-4ef06c96-7d5b-4728-9e41-16d3c7e11d66.png)
+
+#### Specsjeng
 ![specsjeng-power](https://user-images.githubusercontent.com/81879767/150420147-4973ce0d-eb51-460e-a18e-6f3ac14106f1.png)
 
 ### AREA

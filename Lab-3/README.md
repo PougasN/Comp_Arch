@@ -161,8 +161,8 @@ energy consumption of a program shows convex energy behavior, meaning that there
 
 Πηγές:
 
-1)https://www.hpl.hp.com/research/mcpat/micro09.pdf
-2)https://www.hpl.hp.com/research/mcpat/McPATAlpha_TechRep.pdf
+*https://www.hpl.hp.com/research/mcpat/micro09.pdf
+*https://www.hpl.hp.com/research/mcpat/McPATAlpha_TechRep.pdf
 
 
 

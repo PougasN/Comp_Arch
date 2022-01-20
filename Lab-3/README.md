@@ -104,6 +104,8 @@ energy consumption of a program shows convex energy behavior, meaning that there
 
 #### και συνεπώς ο Xeon δεν μπορει να είναι πιο energy efficient απο τον ARM στο παρών σενάριο.
 
+
+
 ## **Βήμα 2**
 
 ### Διαγράμματα EDAP ( Energy * Delay * Area ) συναρτήσει παραμέτρων.

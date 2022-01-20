@@ -141,13 +141,29 @@ energy consumption of a program shows convex energy behavior, meaning that there
 #### Specsjeng
 ![specsjeng-power](https://user-images.githubusercontent.com/81879767/150420147-4973ce0d-eb51-460e-a18e-6f3ac14106f1.png)
 
-### AREA
-
+### Διαγράμματα AREA συναρτήσει παραμέτρων.
+ 
+ #### Specbzip
 ![specbzip-area](https://user-images.githubusercontent.com/81879767/150420165-9935529c-4d54-4d5c-9809-6bb14b6e3011.png)
+
+#### Spechmmer
 ![spechmmer-area](https://user-images.githubusercontent.com/81879767/150420919-5db67dd1-00a9-4596-b064-bcc60f40450a.png)
+
+#### Speclibm
 ![speclibm-area](https://user-images.githubusercontent.com/81879767/150420174-adc63d11-7ea2-43a1-86b1-56ef3a1efb85.png)
+
+#### Specmcf
 ![specmcf-area](https://user-images.githubusercontent.com/81879767/150420182-aa53b54b-132d-4495-96e9-7dc6f7fcfb61.png)
+
+#### Specsjeng
 ![specsjeng-area](https://user-images.githubusercontent.com/81879767/150420189-37d9866f-33fd-485e-9ae5-a83a599fb75e.png)
+
+
+Πηγές:
+
+1)https://www.hpl.hp.com/research/mcpat/micro09.pdf
+2)https://www.hpl.hp.com/research/mcpat/McPATAlpha_TechRep.pdf
+
 
 
 

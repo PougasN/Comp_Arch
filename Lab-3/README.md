@@ -9,9 +9,9 @@
 
 ### Ερώτημα 1
 
-#### Στην διαδικασία επικύρωσης χρησιμοποιούνται in-order καθώς και out-of-order, μονοπύρηνοι αλλά και πολυπύρηνοι επεξεργαστές. Έτσι καταλήγουμε σε ένα περιεκτικό και λεπτομερές αποτέλεσμα. Συγκρίνοντας τους Niagara και Niagara2 δοκιμάζουμε την ικανότητα μας να διατηρούμε την ακρίβεια ακόμα και μεταξύ διαφορετικών γενιών. Η διαδικασία βασίζεται σε δημοσιευμένα δεδομένα για τους αναφερόμενους επεξεργαστές τα οποία περιλαμβάνουν, την ταχύτητα ρολογιού, τις θερμοκρασίες λειτουργίας και τις παραμέτρους αρχιτεκτονικής.
+ Στην διαδικασία επικύρωσης χρησιμοποιούνται in-order καθώς και out-of-order, μονοπύρηνοι αλλά και πολυπύρηνοι επεξεργαστές. Έτσι καταλήγουμε σε ένα περιεκτικό και λεπτομερές αποτέλεσμα. Συγκρίνοντας τους Niagara και Niagara2 δοκιμάζουμε την ικανότητα μας να διατηρούμε την ακρίβεια ακόμα και μεταξύ διαφορετικών γενιών. Η διαδικασία βασίζεται σε δημοσιευμένα δεδομένα για τους αναφερόμενους επεξεργαστές τα οποία περιλαμβάνουν, την ταχύτητα ρολογιού, τις θερμοκρασίες λειτουργίας και τις παραμέτρους αρχιτεκτονικής.
 
-#### Ως όριο χρησιμοποιείται ο χρόνος κύκλου του ρολογιού στο McPAT για τον προσδιορισμό των βασικών ιδιοτήτων του κυκλώματος πριν εφαρμοστούν άλλες βελτιστοποιήσεις ή αντισταθμίσεις. Επειδή ο ρυθμός ρολογιού λαμβάνεται ήδη υπόψη καθώς υπολογίζουμε και βελτιστοποιούμε power και area, εμφανίζονται μόνο τα αποτελέσματα για αυτά.
+ Ως όριο χρησιμοποιείται ο χρόνος κύκλου του ρολογιού στο McPAT για τον προσδιορισμό των βασικών ιδιοτήτων του κυκλώματος πριν εφαρμοστούν άλλες βελτιστοποιήσεις ή αντισταθμίσεις. Επειδή ο ρυθμός ρολογιού λαμβάνεται ήδη υπόψη καθώς υπολογίζουμε και βελτιστοποιούμε power και area, εμφανίζονται μόνο τα αποτελέσματα για αυτά.
 
 #### Οι επεξεργαστές οι οποίοι χρησιμοποιούνται είναι οι εξής : 
         the 90nm Niagara processor        [24] running at 1.2GHz with a 1.2V  power supply
@@ -21,7 +21,7 @@
 
 ### Ερώτημα 2
 
-There are several factors contributing to the CPU power consumption; they include dynamic power consumption, short-circuit power consumption, and power loss due to transistor
+``There are several factors contributing to the CPU power consumption; they include dynamic power consumption, short-circuit power consumption, and power loss due to transistor
 leakage currents:
 
 	{\displaystyle P_{cpu}=P_{dyn}+P_{sc}+P_{leak}}P_{{cpu}}=P_{{dyn}}+P_{{sc}}+P_{{leak}}
@@ -42,7 +42,7 @@ between the differently doped parts of the transistor. The magnitude of these cu
 temperature. The total amount of leakage currents tends to inflate for increasing temperature and decreasing transistor sizes.
 
 Both dynamic and short-circuit power consumption are dependent on the clock frequency, while the leakage current is dependent on the CPU supply voltage. It has been shown that the
-energy consumption of a program shows convex energy behavior, meaning that there exists an optimal CPU frequency at which energy consumption is minimal for the work done.
+energy consumption of a program shows convex energy behavior, meaning that there exists an optimal CPU frequency at which energy consumption is minimal for the work done.``
 
 
 

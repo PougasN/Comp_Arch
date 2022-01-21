@@ -54,7 +54,7 @@ energy consumption of a program shows convex energy behavior, meaning that there
 
 ### Ερώτημα 3
 
- Έχοντας μπαταρία συγκεκριμένης χωρητικότητας η διάφορά στην διάρκεια ζωής για 2 διαφορετικούς επεξεργαστές οφείλεται στο energy efficiency τους. Ένας τρόπος μέτρησης του energy efficiency αποτελεί το Performance Per Watt το οποίο μπορεί να ορισθεί ως Flops per Watt και κατ'επέκταση ως συνάρτηση της συχνότητας λειτουργίας του kai του average power consumption του CPU.
+ Έχοντας μπαταρία συγκεκριμένης χωρητικότητας η διάφορά στην διάρκεια ζωής για 2 διαφορετικούς επεξεργαστές οφείλεται στο energy efficiency τους. Ένας τρόπος μέτρησης του energy efficiency αποτελεί το **Performance Per Watt** το οποίο μπορεί να ορισθεί ως **Flops per Watt** και κατ'επέκταση ως συνάρτηση της συχνότητας λειτουργίας του kai του average power consumption του CPU.
 
 ```PPW=constant* Frequency/Avg_pwr```
 
@@ -62,25 +62,25 @@ energy consumption of a program shows convex energy behavior, meaning that there
 
 ```PPW_1=c*f_1/25 και PPW_2=c*f_2/35```
 
-#### Άρα ο 2ος επεξεργαστής μπορεί να είναι πιο efficient παρα την μεγαλύτερη κατανάλωση του έαν έχει επαρκώς μεγάλη συχνότητα, αυξάνοντας έτσι το PPW και το ποσοστό του χρόνου που έιναι αδρανής.
+ Άρα ο 2ος επεξεργαστής μπορεί να είναι πιο efficient παρα την μεγαλύτερη κατανάλωση του έαν έχει επαρκώς μεγάλη συχνότητα, αυξάνοντας έτσι το PPW και το ποσοστό του χρόνου που έιναι αδρανής.
 
 ```PPW_2>PPW_1=>f_2>35/25*f_1=>f_2>1.4*f_1```
 
-#### Εάν γνωρίζουμε την average κατανάλωση ενός επεξεργαστή μπορούμε να βρούμε απο το output του McPAT την συχνότητα και συνεπώς να συγκρίνουμε δύο τυπους επεξεργαστών. Δυστυχώς όμως, απο το output του McPAT παίρνουμε μόνο peak power consumption και όχι average.
+Εάν γνωρίζουμε την average κατανάλωση ενός επεξεργαστή μπορούμε να βρούμε απο το output του McPAT την συχνότητα και συνεπώς να συγκρίνουμε δύο τυπους επεξεργαστών. Δυστυχώς όμως, απο το output του McPAT παίρνουμε μόνο peak power consumption και όχι average.
 
 ### Ερώτημα 4
 
-#### Xeon 
-    Peak Power = 134.938 W
-      Total Leakage = 36.8319 W
-      Peak Dynamic = 98.1063 W
-    Runtime Dynamic = 72.9199 W
+### Xeon 
+    	Peak Power = 134.938 W
+     	Total Leakage = 36.8319 W
+      	Peak Dynamic = 98.1063 W
+    	Runtime Dynamic = 72.9199 W
 
-#### ARM A9 2GHz
-     Peak Power = 1.74189 W
-      Total Leakage = 0.108687 W
-      Peak Dynamic = 1.6332 W
-    Runtime Dynamic = 2.96053 W
+### ARM A9 2GHz
+   	Peak Power = 1.74189 W
+     	Total Leakage = 0.108687 W
+     	Peak Dynamic = 1.6332 W
+	Runtime Dynamic = 2.96053 W
 
 
 ```P_Xeon= Runtime_dynamic + Total_Leakage= 72.9199 + 36.8319= 109.7518```
@@ -98,17 +98,21 @@ energy consumption of a program shows convex energy behavior, meaning that there
 
 ```Ε_Xeon/E_ΑΡΜ=P_Xeon* Δt_Xeon/(P_ARM* Δt_ARM)=35,758*(Δt_Xeon/Δt_ARM)=35,758/40= 0,8939```
 
-#### Αρα κατα την εκτέλεση ο Xeon είναι πιο energy efficient απο τον ARM, αλλά εφόσον δεν έχουμε διακοπή λειτουργίας του συστήματος μετα την εκτέλεση της εφαρμογής το μεγαλύτερο ποσοστό κατανάλωσης ενέργειας οφείλεται στην στατική ισχύ (Total Leakage) όπου:
+Αρα κατα την εκτέλεση ο Xeon είναι πιο energy efficient απο τον ARM, αλλά εφόσον δεν έχουμε διακοπή λειτουργίας του συστήματος μετα την εκτέλεση της εφαρμογής το μεγαλύτερο ποσοστό κατανάλωσης ενέργειας οφείλεται στην στατική ισχύ (Total Leakage) όπου:
 
 ```P_static_Xeon= 338,8 * P_static_ARM ```
 
-#### και συνεπώς ο Xeon δεν μπορει να είναι πιο energy efficient απο τον ARM στο παρών σενάριο.
+ και συνεπώς **ο Xeon δεν μπορει να είναι πιο energy efficient απο τον ARM στο παρών σενάριο**.
 
 
 
 ## **Βήμα 2**
 
-Για το 2ο βήμα της εργασίας, αρχικά παράγουμε τα .xml αρχεία για κάθε configuration που χρησιμοποιήθηκε στο 2o Assignment με την βοήθεια του ```GEM5ToMcPAT.py``` (που μας δόθηκε) και του [```gem2mcpat.sh```](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/gem2mcpat.sh)
+Για το 2ο βήμα της εργασίας, αρχικά παράγουμε τα [.xml](https://github.com/PougasN/Comp_Arch/tree/main/Lab-3/spec_PDF) αρχεία για κάθε configuration που χρησιμοποιήθηκε στο [2o Assignment](https://github.com/PougasN/Comp_Arch/tree/main/Lab-2/setups) με την βοήθεια του ```GEM5ToMcPAT.py``` (που μας δόθηκε) και του [```gem2mcpat.sh```](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/gem2mcpat.sh).
+
+Στην συνέχεια τρέχουμε το McPAT με print_level 5 για όλα τα config μέσω του [```spec_mcpat.sh```](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/spec_mcpat.sh) και συγκεντρώνουμε όλες τις πληροφορίες στο [spec_mcpat_out](https://github.com/PougasN/Comp_Arch/tree/main/Lab-3/spec_mcpat_out) ανα benchmark.
+
+Tέλος, απο τα αποτελέσματα που συγκεντρώσαμε και με την βοήθεια 
 
 ### Διαγράμματα EDAP ( Energy * Delay * Area ) συναρτήσει παραμέτρων.
 

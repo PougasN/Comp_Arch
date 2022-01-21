@@ -77,10 +77,10 @@ energy consumption of a program shows convex energy behavior, meaning that there
     	Runtime Dynamic = 72.9199 W
 
 ### ARM A9 2GHz
-	Peak Power = 1.74189 W
-	Total Leakage = 0.108687 W
-	Peak Dynamic = 1.6332 W
-	Dynamic = 2.96053 W
+		Peak Power = 1.74189 W
+		Total Leakage = 0.108687 W
+		Peak Dynamic = 1.6332 W
+		Dynamic = 2.96053 W
 
 
 ```P_Xeon= Runtime_dynamic + Total_Leakage= 72.9199 + 36.8319= 109.7518```

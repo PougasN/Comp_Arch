@@ -80,7 +80,7 @@ energy consumption of a program shows convex energy behavior, meaning that there
 		Peak Power = 1.74189 W
 		Total Leakage = 0.108687 W
 		Peak Dynamic = 1.6332 W
-		Dynamic = 2.96053 W
+		Runtime Dynamic = 2.96053 W
 
 
 ```P_Xeon= Runtime_dynamic + Total_Leakage= 72.9199 + 36.8319= 109.7518```
@@ -112,7 +112,10 @@ energy consumption of a program shows convex energy behavior, meaning that there
 
 Στην συνέχεια τρέχουμε το McPAT με print_level 5 για όλα τα config μέσω του [```spec_mcpat.sh```](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/spec_mcpat.sh) και συγκεντρώνουμε όλες τις πληροφορίες στο [spec_mcpat_out](https://github.com/PougasN/Comp_Arch/tree/main/Lab-3/spec_mcpat_out) ανα benchmark.
 
-Tέλος, απο τα αποτελέσματα που συγκεντρώσαμε και με την βοήθεια 
+Aπο τα αποτελέσματα που συγκεντρώσαμε και με την βοήθεια των scripts [```get_energy.sh```](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/get_energy.sh) και ```print_energy.py``` παίρνουμε πληροφορίες για την ενέργεια, το leakage, dynamic και runtime power του κάθε benchmark. 
+
+Τέλος, τρέχοντας το [```format_results.sh```](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/format_results.sh) συγκεντρώνουμε όλη την απαραίτητη πληροφορία σε συνεκτική μορφή σε .csv αρχεία ανα Benchmark.
+
 
 ### Διαγράμματα EDAP ( Energy * Delay * Area ) συναρτήσει παραμέτρων.
 

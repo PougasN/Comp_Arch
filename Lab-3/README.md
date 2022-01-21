@@ -108,6 +108,8 @@ energy consumption of a program shows convex energy behavior, meaning that there
 
 ## **Βήμα 2**
 
+Για το 2ο βήμα της εργασίας, αρχικά παράγουμε τα .xml αρχεία για κάθε configuration που χρησιμοποιήθηκε στο 2o Assignment με την βοήθεια του ``**GEM5ToMcPAT.py**`` (που μας δόθηκε) και του [``**gem2mcpat.sh**``](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/gem2mcpat.sh)
+
 ### Διαγράμματα EDAP ( Energy * Delay * Area ) συναρτήσει παραμέτρων.
 
 #### Specbzip

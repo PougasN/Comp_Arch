@@ -31,15 +31,15 @@ leakage currents:*
 
 	{\displaystyle P_{dyn}=CV^{2}f}{\displaystyle P_{dyn}=CV^{2}f}
 
-*where C is the switched load capacitance, f is frequency, V is voltage.
+*where C is the switched load capacitance, f is frequency, V is voltage.*
 
-When logic gates toggle, some transistors inside may change states. As this takes a finite amount of time, it may happen that for a very brief amount of time some transistors are 
+*When logic gates toggle, some transistors inside may change states. As this takes a finite amount of time, it may happen that for a very brief amount of time some transistors are 
 conducting simultaneously. A direct path between the source and ground then results in some short-circuit power loss ({\displaystyle P_{sc}}{\displaystyle P_{sc}}). The magnitude
-of this power is dependent on the logic gate, and is rather complex to model on a macro level.
+of this power is dependent on the logic gate, and is rather complex to model on a macro level.*
 
 *Power consumption due to leakage power ({\displaystyle P_{leak}}{\displaystyle P_{leak}}) emanates at a micro-level in transistors. Small amounts of currents are always flowing 
 between the differently doped parts of the transistor. The magnitude of these currents depend on the state of the transistor, its dimensions, physical properties and sometimes 
-temperature. The total amount of leakage currents tends to inflate for increasing temperature and decreasing transistor sizes.
+temperature. The total amount of leakage currents tends to inflate for increasing temperature and decreasing transistor sizes.*
 
 *Both dynamic and short-circuit power consumption are dependent on the clock frequency, while the leakage current is dependent on the CPU supply voltage. It has been shown that the
 energy consumption of a program shows convex energy behavior, meaning that there exists an optimal CPU frequency at which energy consumption is minimal for the work done.*

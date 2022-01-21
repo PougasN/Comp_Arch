@@ -21,7 +21,7 @@
 
 ### Ερώτημα 2
 
-`There are several factors contributing to the CPU power consumption; they include dynamic power consumption, short-circuit power consumption, and power loss due to transistor
+`` There are several factors contributing to the CPU power consumption; they include dynamic power consumption, short-circuit power consumption, and power loss due to transistor
 leakage currents:
 
 	{\displaystyle P_{cpu}=P_{dyn}+P_{sc}+P_{leak}}P_{{cpu}}=P_{{dyn}}+P_{{sc}}+P_{{leak}}
@@ -42,7 +42,7 @@ between the differently doped parts of the transistor. The magnitude of these cu
 temperature. The total amount of leakage currents tends to inflate for increasing temperature and decreasing transistor sizes.
 
 Both dynamic and short-circuit power consumption are dependent on the clock frequency, while the leakage current is dependent on the CPU supply voltage. It has been shown that the
-energy consumption of a program shows convex energy behavior, meaning that there exists an optimal CPU frequency at which energy consumption is minimal for the work done.`
+energy consumption of a program shows convex energy behavior, meaning that there exists an optimal CPU frequency at which energy consumption is minimal for the work done. ``
 
 
 

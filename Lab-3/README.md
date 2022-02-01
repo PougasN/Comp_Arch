@@ -114,7 +114,7 @@ energy consumption of a program shows convex energy behavior, meaning that there
 
 Aπο τα αποτελέσματα που συγκεντρώσαμε και με την βοήθεια των scripts [```get_energy.sh```](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/get_energy.sh) και ```print_energy.py``` παίρνουμε πληροφορίες για την ενέργεια, το leakage, dynamic και runtime power του κάθε benchmark. 
 
-Τέλος, τρέχοντας το [```format_results.sh```](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/format_results.sh) συγκεντρώνουμε όλη την απαραίτητη πληροφορία σε συνεκτική μορφή σε .csv αρχεία ανα Benchmark.
+Τέλος, τρέχοντας το [```format_results.sh```](https://github.com/PougasN/Comp_Arch/blob/main/Lab-3/format_results.sh) συγκεντρώσαμε όλη την απαραίτητη πληροφορία σε συνεκτική μορφή σε .csv αρχεία ανα Benchmark.
 
 
 ### Διαγράμματα EDAP ( Energy * Delay * Area ) συναρτήσει παραμέτρων.

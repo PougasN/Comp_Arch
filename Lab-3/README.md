@@ -120,54 +120,54 @@ Aπο τα αποτελέσματα που συγκεντρώσαμε και μ�
 ### Διαγράμματα EDAP ( Energy * Delay * Area ) συναρτήσει παραμέτρων.
 
 #### Specbzip
-![specbzip-EDAP](https://user-images.githubusercontent.com/81879767/150416936-b8244a0e-7d99-47dc-bda2-2f4a5a698cb0.png)
+![image](https://user-images.githubusercontent.com/81879767/152386993-c668f9e1-2adf-468e-a3a1-ff862b7dfe7e.png)
 
 #### Spechmmer
-![spechmmer-EDAP](https://user-images.githubusercontent.com/81879767/150416968-c0c04bc7-44d7-4aeb-b46b-8a90497f3e36.png)
+![image](https://user-images.githubusercontent.com/81879767/152387801-3ab01e98-33e6-419d-a67c-8a55a9ed7b3c.png)
 
 #### Speclibm
-![speclibm-EDAP](https://user-images.githubusercontent.com/81879767/150420571-19ec2f5d-6fae-40be-8faa-3527008839cf.png)
+![image](https://user-images.githubusercontent.com/81879767/152387931-f137cd3e-7a98-4faf-945c-9f735a94efac.png)
 
 #### Specmcf
-![specmcf-edap](https://user-images.githubusercontent.com/81879767/150416989-10aa1c9a-93b5-4eb3-bffa-f9d53ef1cac8.png)
+![image](https://user-images.githubusercontent.com/81879767/152388485-a4af73fb-accd-4bd0-8ee8-5362381fdb08.png)
 
 #### Specsjeng
-![specsjeng-edap](https://user-images.githubusercontent.com/81879767/150417022-43c41bf4-dd3f-4361-834e-5bfe34152ea7.png)
+![image](https://user-images.githubusercontent.com/81879767/152388703-78f8ce68-60e9-4260-9492-139d5d93a2a7.png)
 
 
 ### Διαγράμματα POWER ( Peak Power ) συναρτήσει παραμέτρων.
 
 #### Specbzip
-![specbzip-power](https://user-images.githubusercontent.com/81879767/150420118-5c4aabad-bbb6-404f-a44a-48eb05c6e627.png)
+![image](https://user-images.githubusercontent.com/81879767/152387108-73f7a4ca-32da-43df-9821-858a66db8e68.png)
 
 #### Spechmmer
-![spechmmer-power](https://user-images.githubusercontent.com/81879767/150420896-75482706-f880-4af6-b21f-0c63a159f283.png)
+![image](https://user-images.githubusercontent.com/81879767/152387512-78e03c85-b388-4837-a12c-f23456e16963.png)
 
 #### Speclibm
-![speclibm-power](https://user-images.githubusercontent.com/81879767/150420137-3110097b-c12c-47b6-8f63-ad53b451f34a.png)
+![image](https://user-images.githubusercontent.com/81879767/152388059-f51d1665-e3cc-4478-98a5-ca243c87cd08.png)
 
 #### Specmcf
-![specmcf-power](https://user-images.githubusercontent.com/81879767/150420141-4ef06c96-7d5b-4728-9e41-16d3c7e11d66.png)
+![image](https://user-images.githubusercontent.com/81879767/152388614-4a1df2e8-be24-490e-b4e3-b798f76efb79.png)
 
 #### Specsjeng
-![specsjeng-power](https://user-images.githubusercontent.com/81879767/150420147-4973ce0d-eb51-460e-a18e-6f3ac14106f1.png)
+![image](https://user-images.githubusercontent.com/81879767/152388808-d6bcf716-73de-4157-bfa3-b8645c49516f.png)
 
 ### Διαγράμματα AREA συναρτήσει παραμέτρων.
  
  #### Specbzip
-![specbzip-area](https://user-images.githubusercontent.com/81879767/150420165-9935529c-4d54-4d5c-9809-6bb14b6e3011.png)
+![image](https://user-images.githubusercontent.com/81879767/152386870-e6f3f49c-d2a3-4d6e-97d8-76af4573738c.png)
 
 #### Spechmmer
-![spechmmer-area](https://user-images.githubusercontent.com/81879767/150420919-5db67dd1-00a9-4596-b064-bcc60f40450a.png)
+![image](https://user-images.githubusercontent.com/81879767/152387642-815d3323-b736-4678-9ede-ae511933c540.png)
 
 #### Speclibm
-![speclibm-area](https://user-images.githubusercontent.com/81879767/150420174-adc63d11-7ea2-43a1-86b1-56ef3a1efb85.png)
+![image](https://user-images.githubusercontent.com/81879767/152388189-03589459-100d-435a-b939-7b9ce4adbde7.png)
 
 #### Specmcf
-![specmcf-area](https://user-images.githubusercontent.com/81879767/150420182-aa53b54b-132d-4495-96e9-7dc6f7fcfb61.png)
+![image](https://user-images.githubusercontent.com/81879767/152388313-0800626a-6cb5-4a4c-a737-67224e728797.png)
 
 #### Specsjeng
-![specsjeng-area](https://user-images.githubusercontent.com/81879767/150420189-37d9866f-33fd-485e-9ae5-a83a599fb75e.png)
+![image](https://user-images.githubusercontent.com/81879767/152388936-6c07e231-2ba4-429f-9669-b3c323afabf7.png)
 
 
 ### ** Παρατηρήσεις**

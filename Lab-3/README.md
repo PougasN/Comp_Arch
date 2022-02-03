@@ -141,16 +141,16 @@ Aπο τα αποτελέσματα που συγκεντρώσαμε και μ�
 ![image](https://user-images.githubusercontent.com/81879767/152387108-73f7a4ca-32da-43df-9821-858a66db8e68.png)
 
 #### Spechmmer
-![image](https://user-images.githubusercontent.com/81879767/152387512-78e03c85-b388-4837-a12c-f23456e16963.png)
+![image](https://user-images.githubusercontent.com/81879767/152389371-5b71fd9d-44af-403e-843d-9bb4decc945e.png)
 
 #### Speclibm
-![image](https://user-images.githubusercontent.com/81879767/152388059-f51d1665-e3cc-4478-98a5-ca243c87cd08.png)
+![image](https://user-images.githubusercontent.com/81879767/152389527-1232184a-9ae9-4b5a-8f07-b9ca1fa95116.png)
 
 #### Specmcf
-![image](https://user-images.githubusercontent.com/81879767/152388614-4a1df2e8-be24-490e-b4e3-b798f76efb79.png)
+![image](https://user-images.githubusercontent.com/81879767/152389622-ee67e414-51ef-49d5-81e1-d1081b17219f.png)
 
 #### Specsjeng
-![image](https://user-images.githubusercontent.com/81879767/152388808-d6bcf716-73de-4157-bfa3-b8645c49516f.png)
+![image](https://user-images.githubusercontent.com/81879767/152389743-8b79d2bf-1c19-4ef0-b2b1-1da3d053f6ac.png)
 
 ### Διαγράμματα AREA συναρτήσει παραμέτρων.
  
@@ -158,16 +158,16 @@ Aπο τα αποτελέσματα που συγκεντρώσαμε και μ�
 ![image](https://user-images.githubusercontent.com/81879767/152386870-e6f3f49c-d2a3-4d6e-97d8-76af4573738c.png)
 
 #### Spechmmer
-![image](https://user-images.githubusercontent.com/81879767/152387642-815d3323-b736-4678-9ede-ae511933c540.png)
+![image](https://user-images.githubusercontent.com/81879767/152389845-1628a9b2-6684-464c-89dc-c755775209d3.png)
 
 #### Speclibm
-![image](https://user-images.githubusercontent.com/81879767/152388189-03589459-100d-435a-b939-7b9ce4adbde7.png)
+![image](https://user-images.githubusercontent.com/81879767/152390214-9eef1345-df12-4595-a1a0-9c1ed065d8c7.png)
 
 #### Specmcf
-![image](https://user-images.githubusercontent.com/81879767/152388313-0800626a-6cb5-4a4c-a737-67224e728797.png)
+![image](https://user-images.githubusercontent.com/81879767/152390390-04557ed1-dcd4-4205-b886-45d33e8619ac.png)
 
 #### Specsjeng
-![image](https://user-images.githubusercontent.com/81879767/152388936-6c07e231-2ba4-429f-9669-b3c323afabf7.png)
+![image](https://user-images.githubusercontent.com/81879767/152390478-a01001ed-7704-47db-afe3-024d446dde4e.png)
 
 
 ### ** Παρατηρήσεις**
